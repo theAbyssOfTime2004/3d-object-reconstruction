@@ -1,1 +1,21 @@
+# Môi trường ảo Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File chứa biến môi trường
 .env
+
+# Dữ liệu dataset lớn và các file tạm
+data/
+shapenetcore/
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
